@@ -13,4 +13,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Lưu trạng thái" />
+
+    <Button
+        android:onClick="XuLyDocTrangThai"
+        android:id="@+id/btnDoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đọc trạng thái" />
+
+    <TextView
+        android:id="@+id/txtTrangThai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp" />
 </LinearLayout>
